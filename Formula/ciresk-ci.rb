@@ -7,8 +7,12 @@ class CireskCi < Formula
 
   on_macos do
     on_arm do
+      url "https://get.ciresk.com/ci/v1.0.3/ciresk-ci-v1.0.3-darwin-aarch64.tar.gz"
+      sha256 "d5a010fc694bf62793abe3fec5028682029b7b927f6f2a0fc32b3ce688de5447"
     end
     on_intel do
+      url "https://get.ciresk.com/ci/v1.0.3/ciresk-ci-v1.0.3-darwin-x86_64.tar.gz"
+      sha256 "8d695d448b6250202776b7c30971a9890e62ed626d87f045da08c9a6c979ce90"
     end
   end
 
